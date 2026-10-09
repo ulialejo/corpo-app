@@ -41,11 +41,11 @@ window.CORPO_DATA.categories.push({
           ],
           "refs": [
             {
-              "name": "JORC Code",
+              "name": "JORC Code, edición 2012 (vigente; el JORC Code 2026 está en proceso de finalización: confirmar edición en jorc.org)",
               "verify": true
             },
             {
-              "name": "National Instrument 43-101 — Standards of Disclosure for Mineral Projects",
+              "name": "National Instrument 43-101 — Standards of Disclosure for Mineral Projects (vigente; las CSA propusieron en 2025 reemplazarlo: confirmar estado)",
               "verify": true
             }
           ]
@@ -159,11 +159,11 @@ window.CORPO_DATA.categories.push({
           ],
           "refs": [
             {
-              "name": "Código Internacional para el Manejo del Cianuro",
-              "verify": true
+              "name": "Código Internacional para el Manejo del Cianuro (International Cyanide Management Code), administrado por el ICMI",
+              "verify": false
             },
             {
-              "name": "Global Industry Standard on Tailings Management (GISTM)",
+              "name": "Global Industry Standard on Tailings Management (GISTM, ICMM/PNUMA/PRI, 2020); se espera una versión consolidada: confirmar edición vigente",
               "verify": true
             }
           ]
@@ -721,8 +721,8 @@ window.CORPO_DATA.categories.push({
               "verify": false
             },
             {
-              "name": "Ley 24.585 — Protección ambiental para la actividad minera",
-              "verify": true
+              "name": "Ley 24.585 — Protección ambiental para la actividad minera (1995, modifica el Código de Minería)",
+              "verify": false
             },
             {
               "name": "Requisitos de gestión y transporte de residuos aplicables en San Juan",
@@ -764,7 +764,7 @@ window.CORPO_DATA.categories.push({
           ],
           "refs": [
             {
-              "name": "Global Industry Standard on Tailings Management (GISTM)",
+              "name": "Global Industry Standard on Tailings Management (GISTM, ICMM/PNUMA/PRI, 2020); se espera una versión consolidada: confirmar edición vigente",
               "verify": true
             }
           ]
@@ -803,12 +803,12 @@ window.CORPO_DATA.categories.push({
           ],
           "refs": [
             {
-              "name": "ICMM — Mining Principles",
+              "name": "ICMM — Mining Principles (10 principios y 39 expectativas de desempeño); confirmar edición vigente",
               "verify": true
             },
             {
-              "name": "Código Internacional para el Manejo del Cianuro",
-              "verify": true
+              "name": "Código Internacional para el Manejo del Cianuro (International Cyanide Management Code), administrado por el ICMI",
+              "verify": false
             },
             {
               "name": "Requisitos de cierre minero y participación comunitaria aplicables en San Juan",
@@ -857,15 +857,15 @@ window.CORPO_DATA.categories.push({
           "refs": [
             {
               "name": "Código de Minería de la República Argentina",
-              "verify": true
+              "verify": false
             },
             {
-              "name": "Ley 24.196 — Inversiones Mineras",
-              "verify": true
+              "name": "Ley 24.196 — Inversiones Mineras (1993)",
+              "verify": false
             },
             {
-              "name": "Ley 24.585 — Protección ambiental para la actividad minera",
-              "verify": true
+              "name": "Ley 24.585 — Protección ambiental para la actividad minera (1995, modifica el Código de Minería)",
+              "verify": false
             },
             {
               "name": "Normativa minera y ambiental provincial de San Juan: aplicabilidad al proyecto",
@@ -884,7 +884,7 @@ window.CORPO_DATA.categories.push({
             {
               "h": "Cómo se aplica",
               "list": [
-                "En la matriz incluí Ley 19.587, Decreto 351/79 y Decreto 249/2007; el especialista determina su relación y alcance aplicable a cada actividad.",
+                "En la matriz incluí Ley 19.587 y Decreto 249/2007. El Decreto 249/2007 es el reglamento específico de la minería; según su artículo 3, el Decreto 351/79 no se aplica a la actividad minera salvo las remisiones expresas de su Anexo I. El especialista confirma el alcance aplicable a cada actividad.",
                 "El Decreto 249/2007 aprueba el Reglamento de Higiene y Seguridad para la actividad minera; traducí las obligaciones confirmadas en controles con responsables y registros.",
                 "Revisá con especialistas la Ley 24.557, la cobertura correspondiente y las disposiciones aplicables de la SRT; diferenciá evidencia de cobertura de evidencia preventiva.",
                 "Para ingreso y contratación, verificá documentación, competencias e inducción exigibles; la aceptación administrativa no habilita una tarea peligrosa por sí sola.",
@@ -908,11 +908,11 @@ window.CORPO_DATA.categories.push({
           "refs": [
             {
               "name": "Ley 19.587 — Higiene y Seguridad en el Trabajo",
-              "verify": true
+              "verify": false
             },
             {
-              "name": "Decreto 351/79 — Reglamentación de la Ley 19.587",
-              "verify": true
+              "name": "Decreto 351/79 — Reglamentación de la Ley 19.587 (en minería rige solo por las remisiones expresas del Anexo I del Decreto 249/2007)",
+              "verify": false
             },
             {
               "name": "Decreto 249/2007 — Reglamento de Higiene y Seguridad para la actividad minera",
@@ -920,7 +920,7 @@ window.CORPO_DATA.categories.push({
             },
             {
               "name": "Ley 24.557 — Riesgos del Trabajo",
-              "verify": true
+              "verify": false
             },
             {
               "name": "Superintendencia de Riesgos del Trabajo (SRT) — disposiciones aplicables a la actividad y al sitio",
@@ -1007,7 +1007,7 @@ window.CORPO_DATA.categories.push({
           ],
           "refs": [
             {
-              "name": "Resolución SRT 801/2015 — Sistema Globalmente Armonizado de Clasificación y Etiquetado de Productos Químicos (SGA/GHS), y modificatorias",
+              "name": "Resolución SRT 801/2015 — Sistema Globalmente Armonizado (SGA/GHS); su cronograma fue modificado por las Res. SRT 3359/2015 y 155/2016: confirmar estado vigente",
               "verify": true
             }
           ]
@@ -1050,8 +1050,8 @@ window.CORPO_DATA.categories.push({
               "verify": true
             },
             {
-              "name": "Código Internacional para el Manejo del Cianuro",
-              "verify": true
+              "name": "Código Internacional para el Manejo del Cianuro (International Cyanide Management Code), administrado por el ICMI",
+              "verify": false
             }
           ]
         }

@@ -136,7 +136,7 @@ window.CORPO_DATA.categories.push({
             { h: 'Ejemplo práctico', p: 'Ejemplo ilustrativo: un SOP de alta de clientes exige validar datos fiscales, aprobar crédito y registrar la autorización antes de habilitar ventas a plazo. Si falta la aprobación, el sistema bloquea esa modalidad; el responsable registra la excepción y su resolución. El historial permite reconstruir quién decidió y con qué información.' },
             { h: 'Errores comunes', list: ['Publicar una versión nueva sin retirar instrucciones anteriores.', 'Usar asistencia a capacitación como única prueba de competencia.', 'Copiar requisitos normativos sin traducirlos a responsables, controles y registros.'] },
             { h: 'Cómo se mide', p: 'Medí operaciones conformes al primer intento / operaciones revisadas, excepciones sin autorización y recurrencia de fallas por versión. Revisá si el procedimiento permite obtener la salida requerida, además de comprobar que se completaron los formularios.' }
-          ], refs: [{ name: 'ISO 9001:2026 — Quality management systems — Requirements', verify: false }, { name: 'Transición de certificación a ISO 9001:2026: calendario y condiciones del organismo de certificación', verify: true }]
+          ], refs: [{ name: 'ISO 9001:2026 — Quality management systems — Requirements', verify: false }, { name: 'Transición de certificación a ISO 9001:2026 (publicada el 16/9/2026; los certificadores citan hasta el 30/9/2029): confirmar con IAF y el organismo de certificación', verify: true }]
         },
         {
           title: '5S y Lean dentro de un proyecto DMAIC', level: 'avanzado',

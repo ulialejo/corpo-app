@@ -247,14 +247,15 @@ window.CORPO_DATA.categories.push({
               'Ubicá lotes con FEFO, separá crudos y listos para consumo y protegé de contaminación cruzada. Etiquetá apertura y preparación conforme al procedimiento validado.',
               'Controlá higiene de manos, agua apta, superficies, utensilios, plagas y residuos. Definí responsables, registros y respuesta ante desvíos.',
               'Gestioná alérgenos desde receta y proveedor hasta comanda y servicio: verificá ingredientes, cambios y contacto cruzado; no prometas ausencia sin respaldo.',
-              'Para NOM-251, contrastá instalaciones y prácticas con el texto aplicable. Para Distintivo H, confirmá con SECTUR la edición vigente de NMX-F-605, lista de verificación y proceso de evaluación.',
+              'Para NOM-251, contrastá instalaciones y prácticas con el texto aplicable. Para Distintivo H, la base es la NMX-F-605-NORMEX-2018; confirmá con SECTUR la lista de verificación y el proceso de evaluación vigentes.',
               'Cerrá hallazgos con evidencia de corrección y comprobá eficacia. Operá según la normativa y el procedimiento vigente de cada empresa/jurisdicción; el reconocimiento no sustituye obligaciones sanitarias.'
             ] },
             { h: 'Ejemplo práctico', p: 'Ejemplo ilustrativo: llega un lote cuyo vencimiento es anterior al de otro recibido ayer. Si cumple las condiciones de aceptación, se coloca primero en la secuencia FEFO. Un envase dañado del mismo despacho queda segregado con su lote identificado; rotar stock no reemplaza comprobar aptitud.' },
             { h: 'Cómo se mide', p: 'Medí rechazos por proveedor, mermas por vencimiento, registros omitidos y hallazgos reincidentes. Verificá trazabilidad seleccionando un lote y reconstruyendo recepción, almacenamiento y preparaciones de destino con los registros disponibles.' }
           ], refs: [
-            { name: 'NOM-251-SSA1-2009 — Prácticas de higiene para el proceso de alimentos, bebidas o suplementos alimenticios; DOF 1/3/2010; aplicación vigente', verify: true },
-            { name: 'SECTUR / Secretaría de Salud — Distintivo H; NMX-F-605, edición y requisitos actuales', verify: true }
+            { name: 'NOM-251-SSA1-2009 — Prácticas de higiene para el proceso de alimentos, bebidas o suplementos alimenticios (DOF 1/3/2010)', verify: false },
+            { name: 'NMX-F-605-NORMEX-2018 — Manejo higiénico en el servicio de alimentos preparados para la obtención del Distintivo H (DOF 13/8/2019)', verify: false },
+            { name: 'SECTUR / Secretaría de Salud — Distintivo H: requisitos y proceso de evaluación vigentes del programa', verify: true }
           ]
         },
         {

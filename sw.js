@@ -1,7 +1,7 @@
 'use strict';
 
 const CACHE_PREFIX = 'corpo-static-';
-const CACHE_NAME = `${CACHE_PREFIX}v4`;
+const CACHE_NAME = `${CACHE_PREFIX}v5`;
 const PRECACHE = ['./', './index.html', './styles.css', './app.js', './manifest.json'];
 
 const OPTIONAL_DATA = [
