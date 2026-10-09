@@ -546,3 +546,642 @@ window.CORPO_DATA.categories.push({
     }
   ]
 });
+window.CORPO_DATA.categories.push({
+  "id": "mineria-procedimientos-sitio",
+  "title": "Minería: controles, ambiente y trabajo en sitio",
+  "desc": "Procedimientos operativos, responsabilidades y evidencia para coordinar trabajos mineros en Argentina y San Juan.",
+  "topics": [
+    {
+      "id": "min-seguridad-procedimientos",
+      "title": "Seguridad y salud: controles antes, durante y después",
+      "lessons": [
+        {
+          "title": "Convertir el ATS y el permiso en controles de campo",
+          "level": "avanzado",
+          "sections": [
+            {
+              "h": "Qué es",
+              "p": "El análisis de trabajo seguro (ATS/JSA) descompone una tarea en pasos, peligros y controles verificables. El permiso de trabajo autoriza un alcance bajo condiciones definidas; ambos deben reflejar el frente real, según la normativa y el procedimiento vigente de cada empresa/jurisdicción."
+            },
+            {
+              "h": "Cómo se aplica",
+              "list": [
+                "Definí equipo, ubicación, alcance, cuadrilla e interferencias; recorré el frente con quienes ejecutarán la tarea.",
+                "Aplicá la jerarquía de ISO 45001:2018, cláusula 8.1.2: eliminar; sustituir; controles de ingeniería y reorganización del trabajo; administrativos; EPP.",
+                "Para cada paso del ATS registrá peligro, consecuencia, control, responsable y evidencia de que funciona; evaluá el riesgo residual con el método del sitio.",
+                "Confirmá permisos específicos exigibles, aislamientos y coordinación de trabajos simultáneos; el emisor y el ejecutor verifican sus responsabilidades antes de autorizar.",
+                "En la charla de inicio de turno revisá cambios, condiciones ambientales, fatiga, señales de detención y respuesta de emergencia; pedí que la cuadrilla explique los controles.",
+                "Si cambia el alcance o falla un control, detené la tarea, dejá el sector seguro y revalidá ATS y permiso; al cerrar, documentá estado y entrega del área."
+              ]
+            },
+            {
+              "h": "Ejemplo práctico",
+              "p": "Ejemplo ilustrativo: Se planifica mantenimiento bajo un sector con tránsito. La cuadrilla propone desviar físicamente la circulación y aislar el área; un cartel y un chaleco por sí solos no resuelven la exposición."
+            },
+            {
+              "h": "Errores comunes",
+              "p": "Copiar el ATS de ayer; confundir firma con comprensión; autorizar tareas simultáneas cuyos controles se anulan."
+            },
+            {
+              "h": "Cómo se mide",
+              "p": "Controles críticos verificados y conformes / controles críticos previstos × 100; tareas detenidas por cambios; reincidencias por control fallido."
+            }
+          ],
+          "refs": [
+            {
+              "name": "ISO 45001:2018 — Sistemas de gestión de la seguridad y salud en el trabajo, cláusula 8.1.2",
+              "verify": false
+            }
+          ]
+        },
+        {
+          "title": "LOTO e inspección pre-uso: comprobar antes de liberar",
+          "level": "avanzado",
+          "sections": [
+            {
+              "h": "Qué es",
+              "p": "El bloqueo y etiquetado (LOTO) controla energías peligrosas durante intervenciones. La inspección pre-uso decide si un equipo puede operar. Son barreras diferentes y requieren personal competente, según la normativa y el procedimiento vigente de cada empresa/jurisdicción."
+            },
+            {
+              "h": "Cómo se aplica",
+              "list": [
+                "Antes del uso, verificá identificación del equipo y elementos del checklist aprobado: protecciones, mandos, frenos cuando correspondan, fugas, alarmas y estado de mantenimiento.",
+                "Ante un defecto que compromete seguridad, retiralo de servicio, identificá la restricción y generá una orden; la liberación requiere aceptación técnica documentada.",
+                "Para intervenir, el personal autorizado identifica todas las fuentes y energías acumuladas, incluidas gravedad, presión y alimentaciones alternativas; comunica la parada y aplica el procedimiento específico.",
+                "Detené y aislá con dispositivos adecuados; aplicá bloqueo personal o esquema grupal aprobado y controlá energías residuales antes de verificar el aislamiento.",
+                "La persona competente verifica el estado seguro mediante el método aprobado para cada energía; un pulsador de parada o una pantalla apagada no prueban aislamiento.",
+                "Mantené protección continua en relevos y cambios de cuadrilla. Para restituir, comprobá integridad, retiro de personas y herramientas, gestión autorizada de bloqueos y aviso previo a energizar."
+              ]
+            },
+            {
+              "h": "Ejemplo práctico",
+              "p": "Ejemplo ilustrativo: Una bomba detenida conserva presión en una línea. El permiso queda pendiente hasta que personal autorizado controle esa energía y verifique el aislamiento; depósito no entrega el equipo como disponible por verlo apagado."
+            },
+            {
+              "h": "Errores comunes",
+              "p": "Usar una etiqueta como sustituto automático del bloqueo; omitir energía acumulada; retirar un candado ajeno sin el procedimiento excepcional autorizado."
+            },
+            {
+              "h": "Cómo se mide",
+              "p": "Inspecciones realizadas antes del uso / usos sujetos a inspección × 100; defectos pendientes por criticidad; aislamientos auditados conformes."
+            }
+          ],
+          "refs": [
+            {
+              "name": "Control de energías peligrosas (LOTO): procedimiento específico de aislamiento y restitución del sitio",
+              "verify": true
+            }
+          ]
+        },
+        {
+          "title": "Investigar incidentes y medir la eficacia de las barreras",
+          "level": "avanzado",
+          "sections": [
+            {
+              "h": "Qué es",
+              "p": "La investigación reconstruye qué ocurrió, qué barreras fallaron y qué condiciones organizativas lo permitieron. Incluye incidentes sin lesión con potencial grave; combina aprendizaje y seguimiento, según la normativa y el procedimiento vigente de cada empresa/jurisdicción."
+            },
+            {
+              "h": "Cómo se aplica",
+              "list": [
+                "Activá la respuesta, atendé a las personas y asegurá el área mediante personal competente; preservá evidencia sin interferir con el rescate ni exponerte.",
+                "Registrá cronología, condiciones, versiones de procedimientos y testimonios por separado; distinguí hechos, inferencias e información pendiente.",
+                "Analizá barreras ausentes o ineficaces, diseño, supervisión, mantenimiento y planificación; no cierres la causa en “error humano”.",
+                "Asigná acciones según jerarquía de controles, con responsable, fecha interna y evidencia de cierre; comprobá eficacia en campo después de implementarlas.",
+                "LTIFR = lesiones con tiempo perdido × 1.000.000 / horas trabajadas; fijá período, población y definición de lesión antes de comparar.",
+                "TRIFR = lesiones registrables × 1.000.000 / horas trabajadas bajo la convención adoptada; incluye tratamiento médico y trabajo restringido. Documentá categorías y evitá contar el mismo caso varias veces.",
+                "Combiná tasas con controles críticos conformes, exposición y acciones eficaces; publicá horas de contratistas junto con sus casos si integran el alcance."
+              ]
+            },
+            {
+              "h": "Ejemplo práctico",
+              "p": "Ejemplo ilustrativo: Con 1 lesión con tiempo perdido y 200.000 horas, LTIFR = 5. Un trimestre sin lesiones puede conservar fallas en bloqueos: la tasa baja no demuestra que las barreras funcionen."
+            },
+            {
+              "h": "Errores comunes",
+              "p": "Premiar ausencia de reportes; sumar categorías superpuestas; cerrar acciones por compra de un dispositivo sin verificar su instalación y uso."
+            },
+            {
+              "h": "Cómo se mide",
+              "p": "Acciones con eficacia comprobada / acciones sometidas a revisión × 100; recurrencia; controles fallidos; LTIFR y TRIFR con denominador y convención visibles."
+            }
+          ],
+          "refs": [
+            {
+              "name": "ISO 45001:2018 — Sistemas de gestión de la seguridad y salud en el trabajo",
+              "verify": false
+            },
+            {
+              "name": "LTIFR y TRIFR: criterios de clasificación y alcance de reporte de la empresa",
+              "verify": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "min-ambiente-comunidad",
+      "title": "Ambiente y comunidad: del compromiso a la evidencia",
+      "lessons": [
+        {
+          "title": "Traducir la evaluación ambiental en controles y residuos trazables",
+          "level": "avanzado",
+          "sections": [
+            {
+              "h": "Qué es",
+              "p": "La evaluación de impacto ambiental (EIA) conecta línea de base, alternativas, impactos y medidas. El sistema de gestión ambiental mantiene esos compromisos en la operación. ISO 14001:2026 reemplaza la edición 2015; su certificación no reemplaza autorizaciones ambientales."
+            },
+            {
+              "h": "Cómo se aplica",
+              "list": [
+                "Convertí cada compromiso aplicable en una matriz con fuente, actividad, responsable, control, evidencia y frecuencia definida por la autoridad o el plan aprobado.",
+                "Antes de modificar un camino, depósito o proceso, evaluá aspectos e impactos y consultá si requiere gestión ambiental adicional, según la normativa y el procedimiento vigente de cada empresa/jurisdicción.",
+                "Usá ISO 14001:2026 para organizar aspectos ambientales, obligaciones de cumplimiento, objetivos, seguimiento y acciones correctivas; incorporá las condiciones climáticas relevantes al sitio.",
+                "Para residuos, identificá origen y caracterización, segregá por compatibilidad y mantené rotulado, contención e inventario; evitá mezclar corrientes para simplificar retiros.",
+                "Verificá habilitación y alcance del transportista y destinatario cuando corresponda; conciliá cantidad retirada, documento de traslado y constancia de recepción o tratamiento.",
+                "Ante un desvío, contené mediante el procedimiento aprobado, notificá al responsable y conservá evidencia; revisá la causa antes de cerrar la acción."
+              ]
+            },
+            {
+              "h": "Ejemplo práctico",
+              "p": "Ejemplo ilustrativo: Un taller genera absorbentes contaminados. Ambiente define su clasificación y circuito; depósito registra recipientes, peso y destino. El remito del transportista queda abierto hasta recibir la evidencia de recepción correspondiente."
+            },
+            {
+              "h": "Errores comunes",
+              "p": "Tratar todos los residuos como domiciliarios; confundir retiro con disposición acreditada; ejecutar una ampliación porque ya existe una certificación ISO."
+            },
+            {
+              "h": "Cómo se mide",
+              "p": "Compromisos con evidencia vigente / compromisos exigibles × 100; masa de residuos por unidad de actividad; retiros sin cierre documental."
+            }
+          ],
+          "refs": [
+            {
+              "name": "ISO 14001:2026 — Sistemas de gestión ambiental — Requisitos con orientación para su uso",
+              "verify": false
+            },
+            {
+              "name": "Ley 24.585 — Protección ambiental para la actividad minera",
+              "verify": true
+            },
+            {
+              "name": "Requisitos de gestión y transporte de residuos aplicables en San Juan",
+              "verify": true
+            }
+          ]
+        },
+        {
+          "title": "Agua y relaves: balance, alertas y responsabilidades técnicas",
+          "level": "avanzado",
+          "sections": [
+            {
+              "h": "Qué es",
+              "p": "El balance hídrico explica entradas, salidas y almacenamiento dentro de un límite definido. La gestión de relaves combina diseño, operación, vigilancia y respuesta durante todo el ciclo de vida; el GISTM es una referencia de gestión cuya aplicabilidad debe verificarse."
+            },
+            {
+              "h": "Cómo se aplica",
+              "list": [
+                "Definí límite del balance, período y unidades; distinguí captación externa, precipitación, descargas, evaporación, agua en productos y cambios de almacenamiento.",
+                "Calculá residual = entradas − salidas − variación de almacenamiento; identificá mediciones y estimaciones, su incertidumbre y datos faltantes.",
+                "Registrá recirculación por separado: un flujo interno no es nueva captación externa. Usá captación externa / toneladas procesadas como intensidad con base declarada.",
+                "En relaves, vinculá registros de operación y vigilancia con responsables técnicos, instrumentos, inspecciones y umbrales del plan aprobado; no fijes límites genéricos.",
+                "Ante una lectura o condición anómala, aplicá el plan de respuesta por niveles de alerta, preservá datos y escalá al responsable; no ajustes valores para cerrar el balance.",
+                "Coordiná contingencias, comunicaciones aguas abajo y cierre con especialistas, según la normativa y el procedimiento vigente de cada empresa/jurisdicción."
+              ]
+            },
+            {
+              "h": "Ejemplo práctico",
+              "p": "Ejemplo ilustrativo: En un circuito ilustrativo ingresan 1.000 m³, salen 850 m³ y el almacenamiento aumenta 120 m³: quedan 30 m³ sin explicar. El equipo revisa medidores y estimaciones antes de atribuir el residual a una fuga."
+            },
+            {
+              "h": "Errores comunes",
+              "p": "Duplicar agua recirculada; interpretar ausencia de alarma como prueba de estabilidad; modificar parámetros de una instalación de relaves sin autoridad técnica."
+            },
+            {
+              "h": "Cómo se mide",
+              "p": "Residual y su incertidumbre; captación externa por tonelada; disponibilidad de instrumentos; alertas atendidas según el plan; inspecciones con seguimiento cerrado."
+            }
+          ],
+          "refs": [
+            {
+              "name": "Global Industry Standard on Tailings Management (GISTM)",
+              "verify": true
+            }
+          ]
+        },
+        {
+          "title": "Cierre, licencia social y compromisos con la comunidad",
+          "level": "avanzado",
+          "sections": [
+            {
+              "h": "Qué es",
+              "p": "El cierre se planifica durante la operación: define usos futuros, estabilidad, rehabilitación y seguimiento. La licencia social expresa aceptación y confianza cambiantes; no es un permiso administrativo. Los principios del ICMM y el Código del Cianuro aportan referencias voluntarias con alcances específicos."
+            },
+            {
+              "h": "Cómo se aplica",
+              "list": [
+                "Mantené un registro de compromisos con comunidades: origen, alcance, responsable, evidencia y estado; diferenciá propuestas de compromisos autorizados.",
+                "Usá un mecanismo accesible de reclamos: recepción, evaluación, respuesta, seguimiento y revisión con la persona afectada; protegé datos y evitá represalias.",
+                "Incorporá participación temprana sobre agua, tránsito y cierre; documentá desacuerdos y derivá obligaciones de consulta a especialistas según su aplicabilidad.",
+                "Actualizá escenarios de cierre, inventario de instalaciones, costos estimados y criterios verificables de rehabilitación; coordiná cierre progresivo y seguimiento posterior.",
+                "Para cianuro, verificá alcance y estado de certificación de operación, productor o transportista cuando sea pertinente; conservá evidencia contractual y de auditoría sin equipararla con cumplimiento legal total.",
+                "Asigná obligaciones y decisiones a responsables competentes, según la normativa y el procedimiento vigente de cada empresa/jurisdicción; una donación no cancela un impacto pendiente."
+              ]
+            },
+            {
+              "h": "Ejemplo práctico",
+              "p": "Ejemplo ilustrativo: Una comunidad reclama polvo del transporte. Relaciones comunitarias registra el caso, Operaciones revisa rutas y controles, y Ambiente verifica resultados. La respuesta vuelve al reclamante; la compra de insumos por sí sola no cierra el compromiso."
+            },
+            {
+              "h": "Errores comunes",
+              "p": "Medir confianza solo con gasto social; prometer empleo sin autorización; postergar el cierre hasta terminar la extracción; asumir que todo proveedor está cubierto por una certificación corporativa."
+            },
+            {
+              "h": "Cómo se mide",
+              "p": "Compromisos cumplidos con evidencia / compromisos exigibles × 100; recurrencia de reclamos; resultados de rehabilitación contra criterios aprobados; actualización de supuestos de costo de cierre."
+            }
+          ],
+          "refs": [
+            {
+              "name": "ICMM — Mining Principles",
+              "verify": true
+            },
+            {
+              "name": "Código Internacional para el Manejo del Cianuro",
+              "verify": true
+            },
+            {
+              "name": "Requisitos de cierre minero y participación comunitaria aplicables en San Juan",
+              "verify": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "min-marco-legal-argentino",
+      "title": "Marco legal argentino: orientación y matriz de cumplimiento",
+      "lessons": [
+        {
+          "title": "Separar derecho minero, inversión y autorización ambiental",
+          "level": "intermedio",
+          "sections": [
+            {
+              "h": "Qué es",
+              "p": "La matriz legal organiza normas aplicables, responsables y evidencias sin convertir un resumen en asesoramiento jurídico. El Código de Minería, el régimen de inversiones y la protección ambiental responden a objetos distintos; la aplicabilidad se valida para el proyecto y su jurisdicción."
+            },
+            {
+              "h": "Cómo se aplica",
+              "list": [
+                "Identificá titular, actividad, etapa, ubicación y autoridad competente; registrá fuente oficial y fecha de revisión de cada referencia.",
+                "Usá el Código de Minería como marco para revisar derechos y obligaciones mineras con el área legal; no deduzcas autorización operativa de la sola tenencia de un derecho.",
+                "Tratá la Ley 24.196 de Inversiones Mineras como un régimen a evaluar con Legal y Tributario; no asumas beneficios por pertenecer al sector.",
+                "Vinculá la Ley 24.585 de protección ambiental para la actividad minera con la documentación y decisiones ambientales aplicables al proyecto.",
+                "Para San Juan, verificá procedimientos y autoridades provinciales; asociá cada obligación confirmada a un responsable, evidencia y condición que dispara su revisión.",
+                "Antes de cambiar actividad o alcance contractual, pedí evaluación de aplicabilidad, según la normativa y el procedimiento vigente de cada empresa/jurisdicción."
+              ]
+            },
+            {
+              "h": "Ejemplo práctico",
+              "p": "Ejemplo ilustrativo: Una contratista recibe un pedido para abrir un acceso fuera del alcance previsto. Compras deriva el cambio a Operaciones, Ambiente y Legal; una orden de compra aprobada no demuestra que ese acceso esté autorizado."
+            },
+            {
+              "h": "Errores comunes",
+              "p": "Confundir régimen promocional con habilitación; usar una norma nacional como lista completa; copiar la matriz de otro proyecto sin revisar ubicación y actividad."
+            },
+            {
+              "h": "Cómo se mide",
+              "p": "Obligaciones evaluadas con evidencia / obligaciones identificadas × 100; cambios pendientes de revisión; registros sin fuente o responsable."
+            }
+          ],
+          "refs": [
+            {
+              "name": "Código de Minería de la República Argentina",
+              "verify": true
+            },
+            {
+              "name": "Ley 24.196 — Inversiones Mineras",
+              "verify": true
+            },
+            {
+              "name": "Ley 24.585 — Protección ambiental para la actividad minera",
+              "verify": true
+            },
+            {
+              "name": "Normativa minera y ambiental provincial de San Juan: aplicabilidad al proyecto",
+              "verify": true
+            }
+          ]
+        },
+        {
+          "title": "Organizar la evidencia de higiene, seguridad y riesgos del trabajo",
+          "level": "intermedio",
+          "sections": [
+            {
+              "h": "Qué es",
+              "p": "La gestión de cumplimiento conecta prevención, condiciones de trabajo y cobertura de riesgos con evidencia verificable. La Ley 19.587 y el Decreto 249/2007 forman parte del marco preventivo minero; la Ley 24.557 organiza el sistema de riesgos del trabajo."
+            },
+            {
+              "h": "Cómo se aplica",
+              "list": [
+                "En la matriz incluí Ley 19.587, Decreto 351/79 y Decreto 249/2007; el especialista determina su relación y alcance aplicable a cada actividad.",
+                "El Decreto 249/2007 aprueba el Reglamento de Higiene y Seguridad para la actividad minera; traducí las obligaciones confirmadas en controles con responsables y registros.",
+                "Revisá con especialistas la Ley 24.557, la cobertura correspondiente y las disposiciones aplicables de la SRT; diferenciá evidencia de cobertura de evidencia preventiva.",
+                "Para ingreso y contratación, verificá documentación, competencias e inducción exigibles; la aceptación administrativa no habilita una tarea peligrosa por sí sola.",
+                "Asigná circuitos de reporte e investigación de incidentes y derivación a responsables de salud y seguridad; restringí acceso a información médica.",
+                "Mantené versiones y pendientes, según la normativa y el procedimiento vigente de cada empresa/jurisdicción; consultá modificaciones antes de afirmar vigencia o cumplimiento."
+              ]
+            },
+            {
+              "h": "Ejemplo práctico",
+              "p": "Ejemplo ilustrativo: La carpeta de un contratista contiene documentación de cobertura, pero no acredita la competencia requerida para la intervención. El administrador deja pendiente la habilitación de la tarea hasta la validación del responsable técnico."
+            },
+            {
+              "h": "Errores comunes",
+              "p": "Confundir documentación completa con trabajo seguro; divulgar diagnósticos; aplicar automáticamente reglas generales sin revisar el reglamento minero y normas complementarias."
+            },
+            {
+              "h": "Cómo se mide",
+              "p": "Requisitos aplicables con evidencia válida / requisitos evaluados × 100; brechas por criticidad; tareas habilitadas sin validación completa; acciones verificadas."
+            }
+          ],
+          "refs": [
+            {
+              "name": "Ley 19.587 — Higiene y Seguridad en el Trabajo",
+              "verify": true
+            },
+            {
+              "name": "Decreto 351/79 — Reglamentación de la Ley 19.587",
+              "verify": true
+            },
+            {
+              "name": "Decreto 249/2007 — Reglamento de Higiene y Seguridad para la actividad minera",
+              "verify": false
+            },
+            {
+              "name": "Ley 24.557 — Riesgos del Trabajo",
+              "verify": true
+            },
+            {
+              "name": "Superintendencia de Riesgos del Trabajo (SRT) — disposiciones aplicables a la actividad y al sitio",
+              "verify": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "min-transporte-peligrosos",
+      "title": "Transporte y materiales peligrosos: liberación y custodia",
+      "lessons": [
+        {
+          "title": "Preparar el viaje y sostener la cadena de custodia",
+          "level": "avanzado",
+          "sections": [
+            {
+              "h": "Qué es",
+              "p": "La liberación del transporte reúne aceptación documental, condición de la carga y condiciones de viaje. La cadena de custodia identifica quién entregó, recibió y mantuvo control del material en cada transferencia, según la normativa y el procedimiento vigente de cada empresa/jurisdicción."
+            },
+            {
+              "h": "Cómo se aplica",
+              "list": [
+                "Antes de contratar, confirmá producto, cantidad, envases y clasificación para transporte con personal competente; identificá ruta, jurisdicciones y restricciones aplicables.",
+                "Armá una matriz documental según la carga: remito, identificación de lotes, información de seguridad y emergencia, habilitaciones, documentación del vehículo y del conductor y permisos cuando correspondan.",
+                "Cotejá datos entre carga y documentos; verificá integridad de bultos, sujeción y compatibilidad con personal habilitado. Una diferencia no resuelta impide liberar el despacho.",
+                "En cada transferencia registrá fecha, lugar, responsables, cantidades, condición y sellos si se utilizan; preservá el vínculo con el envío original.",
+                "Confirmá recepción disponible, comunicaciones y contingencias de ruta. Los cambios de vehículo, ruta o punto de transferencia requieren evaluación y registro.",
+                "Ante pérdida de custodia, daño o discrepancia, suspendé la aceptación o el movimiento afectado y escalá; no reemplaces documentos para ocultar el desvío."
+              ]
+            },
+            {
+              "h": "Ejemplo práctico",
+              "p": "Ejemplo ilustrativo: Un envío llega con un sello distinto al registrado. Recepción documenta la diferencia y consulta los registros de transferencia; la coincidencia de peso no basta para demostrar integridad de la custodia."
+            },
+            {
+              "h": "Errores comunes",
+              "p": "Usar el remito como prueba de aptitud del transporte; aceptar un cambio de vehículo sin revisión; completar firmas de terceros retrospectivamente."
+            },
+            {
+              "h": "Cómo se mide",
+              "p": "Transferencias con trazabilidad completa / transferencias revisadas × 100; despachos retenidos por documentación; discrepancias de custodia sin resolución."
+            }
+          ],
+          "refs": [
+            {
+              "name": "Normativa argentina de transporte de mercancías peligrosas: requisitos vigentes según carga, modo y jurisdicción",
+              "verify": true
+            }
+          ]
+        },
+        {
+          "title": "Usar HDS y SGA para decidir recepción y almacenamiento",
+          "level": "intermedio",
+          "sections": [
+            {
+              "h": "Qué es",
+              "p": "La hoja de datos de seguridad (HDS) comunica peligros y medidas de manejo. El SGA/GHS organiza clasificación y comunicación mediante etiquetas y fichas; la Resolución SRT 801/2015 es una referencia argentina cuya aplicación vigente y modificaciones deben verificarse."
+            },
+            {
+              "h": "Cómo se aplica",
+              "list": [
+                "Verificá que la HDS corresponda al producto y formulación recibidos, sea legible y esté disponible para quienes manipulan la carga; cotejá etiqueta y proveedor.",
+                "Revisá identificación de peligros, primeros auxilios, incendio, derrames, manejo, almacenamiento, exposición, estabilidad e información de transporte.",
+                "Usá la Res. SRT 801/2015 como referencia de implementación laboral del SGA basada en su quinta edición revisada; validá modificaciones y requisitos actuales con Higiene y Seguridad.",
+                "No deduzcas clasificación de transporte únicamente del pictograma laboral: pedí validación técnica de la información de transporte y del régimen aplicable.",
+                "Ante etiqueta ilegible, HDS faltante o datos incompatibles, mantené el producto identificado como no liberado y consultá al responsable; evitá manipulación innecesaria.",
+                "Capacitá sobre los controles del producto y acceso a información, según la normativa y el procedimiento vigente de cada empresa/jurisdicción; la HDS no sustituye evaluación de exposición ni procedimientos."
+              ]
+            },
+            {
+              "h": "Ejemplo práctico",
+              "p": "Ejemplo ilustrativo: Llegan recipientes con un nombre comercial parecido al habitual, pero diferente concentración. El encargado solicita la HDS correspondiente y evaluación de almacenamiento antes de asignarles la ubicación anterior."
+            },
+            {
+              "h": "Errores comunes",
+              "p": "Archivar fichas sin vincularlas al SKU; usar una HDS de otra formulación; interpretar pictogramas como autorización de manipulación."
+            },
+            {
+              "h": "Cómo se mide",
+              "p": "Productos con HDS correspondiente y accesible / productos sujetos al control × 100; discrepancias etiqueta–HDS; recepciones bloqueadas correctamente."
+            }
+          ],
+          "refs": [
+            {
+              "name": "Resolución SRT 801/2015 — Sistema Globalmente Armonizado de Clasificación y Etiquetado de Productos Químicos (SGA/GHS), y modificatorias",
+              "verify": true
+            }
+          ]
+        },
+        {
+          "title": "Diseñar compatibilidad de almacenamiento y respuesta a desvíos",
+          "level": "avanzado",
+          "sections": [
+            {
+              "h": "Qué es",
+              "p": "La compatibilidad evita que una fuga, mezcla accidental o incendio combine sustancias que reaccionan peligrosamente. La ubicación se define por propiedades y condiciones del producto, no por orden alfabético ni por disponibilidad de espacio."
+            },
+            {
+              "h": "Cómo se aplica",
+              "list": [
+                "Construí con especialistas una matriz de compatibilidad desde HDS, cantidades y condiciones reales; asigná sectores y restricciones por producto.",
+                "Evaluá segregación de ácidos y cianuros, oxidantes y combustibles, además de sustancias sensibles al agua; confirmá controles específicos, sin usar esta lista como diseño completo.",
+                "Verificá que la contención secundaria no conecte productos incompatibles; validá materiales, capacidad, ventilación y protección contra incendio con los responsables técnicos.",
+                "Controlá integridad, rótulo, accesos, contención y condiciones de conservación durante inspecciones; bloqueá ubicaciones que dejaron de cumplir su función.",
+                "Frente a fuga o envase dañado, restringí acceso desde una posición segura, notificá y activá el plan. Solo personal entrenado y equipado interviene; no improvises neutralización.",
+                "Liberá área y existencias después de evaluación autorizada y registro de disposición, según la normativa y el procedimiento vigente de cada empresa/jurisdicción."
+              ]
+            },
+            {
+              "h": "Ejemplo práctico",
+              "p": "Ejemplo ilustrativo: Dos productos incompatibles ocupan estantes separados pero comparten un drenaje. La revisión detecta que una fuga podría reunirlos; el responsable rediseña la segregación y mantiene suspendida esa ubicación hasta validarla."
+            },
+            {
+              "h": "Errores comunes",
+              "p": "Asumir que envases cerrados eliminan incompatibilidad; compartir bandejas de contención; mover un recipiente con fuga sin evaluación y medios adecuados."
+            },
+            {
+              "h": "Cómo se mide",
+              "p": "Ubicaciones conformes con la matriz / ubicaciones inspeccionadas × 100; desvíos críticos abiertos; tiempo de restitución segura; reincidencias."
+            }
+          ],
+          "refs": [
+            {
+              "name": "Hojas de datos de seguridad y matriz de compatibilidad aprobada para los productos del sitio",
+              "verify": true
+            },
+            {
+              "name": "Código Internacional para el Manejo del Cianuro",
+              "verify": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "min-roles-trabajo-sitio",
+      "title": "Roles y trabajo en sitio: relevo, decisiones y contratistas",
+      "lessons": [
+        {
+          "title": "Entregar el turno y emitir un parte diario conciliado",
+          "level": "intermedio",
+          "sections": [
+            {
+              "h": "Qué es",
+              "p": "El pase de turno transfiere el estado operativo y las restricciones a quien toma responsabilidad. El parte diario consolida producción, equipos, eventos y pendientes con un corte común; debe permitir reconstruir decisiones y diferencias."
+            },
+            {
+              "h": "Cómo se aplica",
+              "list": [
+                "Usá una estructura de relevo: personas y roles, equipos disponibles o restringidos, trabajos abiertos, permisos, aislamientos, condiciones de ruta y compromisos pendientes.",
+                "El saliente informa ubicación, estado, riesgo y siguiente acción; el entrante confirma comprensión y acepta pendientes con responsable. Los bloqueos siguen su procedimiento específico de transferencia.",
+                "Definí corte horario, unidades y fuente de producción, horas de equipos, combustible y movimientos; separá dato medido, estimado y pendiente.",
+                "Conciliá balance: inicial + entradas − salidas = final. Identificá transferencias que cruzan el corte y conservá los documentos de origen.",
+                "Registrá cada corrección con motivo, autor y versión; escalá restricciones según la normativa y el procedimiento vigente de cada empresa/jurisdicción antes de reiniciar tareas."
+              ]
+            },
+            {
+              "h": "Ejemplo práctico",
+              "p": "Ejemplo ilustrativo: Un camión despacha antes del corte y arriba después. El parte lo deja en tránsito con identificación del viaje; el turno entrante confirma recepción. Así se evita registrar la misma tonelada dos veces o perderla entre turnos."
+            },
+            {
+              "h": "Errores comunes",
+              "p": "Entregar solo toneladas; informar un equipo aislado como disponible; corregir el cierre sin conservar la versión anterior."
+            },
+            {
+              "h": "Cómo se mide",
+              "p": "Pendientes aceptados con responsable / pendientes transferidos × 100; diferencias de balance sin explicar; correcciones posteriores al cierre; eventos omitidos en relevo."
+            }
+          ],
+          "refs": [
+            {
+              "name": "Procedimientos del sitio para pase de turno, parte diario y transferencia de aislamientos",
+              "verify": true
+            }
+          ]
+        },
+        {
+          "title": "Resolver restricciones en reunión y confirmar mensajes por radio",
+          "level": "intermedio",
+          "sections": [
+            {
+              "h": "Qué es",
+              "p": "La reunión operativa asigna decisiones sobre restricciones del plan. La comunicación por radio ejecuta coordinaciones breves mediante identificación y confirmación; un mensaje ambiguo debe aclararse antes de mover equipos o cambiar condiciones de trabajo."
+            },
+            {
+              "h": "Cómo se aplica",
+              "list": [
+                "Prepará la reunión con plan versus real, restricciones y estado de controles; convocá a Operaciones, Mantenimiento, Logística y especialistas según la decisión.",
+                "Para cada restricción definí decisión, responsable, plazo interno y condición de liberación; registrá quién tiene autoridad para cambiar el plan.",
+                "Antes de transmitir, usá el canal autorizado e identificá destinatario, emisor y ubicación; comunicá una instrucción concreta con equipo y destino inequívocos.",
+                "Aplicá comunicación cerrada (closed-loop): el receptor repite lo crítico y el emisor confirma o corrige. Si no hay confirmación clara, no supongas autorización.",
+                "Respetá prioridad y protocolo de emergencias, zonas sin cobertura y restricciones del sitio; comunicá solo cuando hacerlo sea seguro, según la normativa y el procedimiento vigente de cada empresa/jurisdicción.",
+                "Pasá decisiones y novedades relevantes al registro del turno; una conversación por radio no reemplaza el permiso ni la liberación técnica."
+              ]
+            },
+            {
+              "h": "Ejemplo práctico",
+              "p": "Ejemplo ilustrativo: Despacho indica a un camión esperar en un punto habilitado por cierre de acceso. El conductor repite equipo, punto y condición de espera; despacho confirma. La reunión asigna a Caminos la inspección y a Operaciones la decisión de reapertura."
+            },
+            {
+              "h": "Errores comunes",
+              "p": "Decir “avanzá” sin destinatario ni ubicación; confundir silencio con conformidad; cerrar una reunión sin responsables; divulgar información médica por radio."
+            },
+            {
+              "h": "Cómo se mide",
+              "p": "Acciones liberadas con evidencia / acciones comprometidas × 100; restricciones reiteradas; calidad de confirmación observada en comunicaciones críticas."
+            }
+          ],
+          "refs": [
+            {
+              "name": "Procedimientos del sitio para comunicaciones por radio, emergencias y gestión de tránsito",
+              "verify": true
+            }
+          ]
+        },
+        {
+          "title": "Gestionar contratistas desde la movilización hasta la aceptación",
+          "level": "avanzado",
+          "sections": [
+            {
+              "h": "Qué es",
+              "p": "La gestión de contratistas conecta alcance contractual, competencias, interfaces y aceptación del servicio. Compras administra condiciones; el dueño del trabajo valida la ejecución; especialistas definen controles dentro de sus atribuciones. La coordinación debe quedar explícita."
+            },
+            {
+              "h": "Cómo se aplica",
+              "list": [
+                "Antes de movilizar, definí alcance, entregables, exclusiones, riesgos, equipos y personal; asigná quién autoriza, ejecuta, verifica y acepta.",
+                "Validá documentación, competencias, inducción y medios para la tarea; acordá procedimientos de interfaz entre empresa y contratista, incluidos permisos, aislamiento y emergencias.",
+                "En la reunión previa, revisá actividades simultáneas, accesos y dependencias; fijá puntos donde el trabajo requiere inspección o liberación antes de continuar.",
+                "Controlá en campo resultados y barreras; documentá desvíos y suspendé actividades cuando los controles no estén disponibles, según la normativa y el procedimiento vigente de cada empresa/jurisdicción.",
+                "Procesá cambios de alcance con evaluación técnica, de riesgos, costo y programación antes de ejecutarlos; no regularices informalmente trabajos adicionales.",
+                "Aceptá el servicio contra evidencia: mediciones, inspecciones, entregables y pendientes acordados. Al desmovilizar, conciliá materiales, residuos, accesos y documentación final."
+              ]
+            },
+            {
+              "h": "Ejemplo práctico",
+              "p": "Ejemplo ilustrativo: Un contratista pide reemplazar un equipo de izaje por otro disponible. El administrador registra el cambio y deriva su evaluación a responsables competentes; la urgencia contractual no constituye liberación técnica."
+            },
+            {
+              "h": "Errores comunes",
+              "p": "Confundir factura con aceptación; delegar coordinación por haber contratado especialistas; permitir sustituciones sin evaluar interfaces; cerrar contrato con residuos o pendientes sin responsable."
+            },
+            {
+              "h": "Cómo se mide",
+              "p": "Entregables aceptados a la primera / entregables presentados × 100; cambios ejecutados sin autorización; brechas de movilización; cierre de pendientes con evidencia."
+            }
+          ],
+          "refs": [
+            {
+              "name": "ISO 45001:2018 — Sistemas de gestión de la seguridad y salud en el trabajo",
+              "verify": false
+            },
+            {
+              "name": "Requisitos legales y procedimientos del sitio para gestión de contratistas",
+              "verify": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+});
