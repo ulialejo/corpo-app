@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corpo - Facultad corporativa de bolsillo</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>">
+  <meta name="theme-color" content="#f59e0b">
+  <meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+  <div id="app">
+    <nav class="tab-bar" aria-label="Secciones principales">
+      <div role="tablist" aria-label="Contenido">
+        <button id="tab-learn" type="button" role="tab" aria-selected="true" aria-controls="view-categories view-topics view-lesson">Aprender</button>
+        <button id="tab-glossary" type="button" role="tab" aria-selected="false" aria-controls="view-glossary">Glosario</button>
+      </div>
+    </nav>
+    <!-- VISTA: CATEGORÍAS -->
+    <section id="view-categories" class="view">
+      <header>
+        <h1>Corpo 🧠</h1>
+        <p class="subtitle">Facultad corporativa de bolsillo</p>
+      </header>
+      <div id="categories-grid" class="grid"></div>
+      <div id="progress-summary" class="progress-summary hidden">
+        <span id="total-progress">0%</span> completado · <span id="lessons-done">0</span> lecciones
+      </div>
+    </section>
+
+    <!-- VISTA: TEMAS DE UNA CATEGORÍA -->
+    <section id="view-topics" class="view hidden">
+      <header>
+        <button id="back-to-cats" class="back-btn">←</button>
+        <h1 id="cat-title"></h1>
+        <p id="cat-desc" class="subtitle"></p>
+      </header>
+      <div id="topics-list" class="topics-list"></div>
+    </section>
+
+    <!-- VISTA: LECCIÓN -->
+    <section id="view-lesson" class="view hidden">
+      <header>
+        <button id="back-to-topics" class="back-btn">←</button>
+        <span id="lesson-breadcrumb"></span>
+      </header>
+      <article id="lesson-content" class="lesson-content"></article>
+      <nav class="lesson-nav">
+        <button id="prev-lesson" class="nav-btn hidden">Anterior</button>
+        <button id="mark-done" class="nav-btn primary">Marcar como vista ✓</button>
+        <button id="next-lesson" class="nav-btn hidden">Siguiente</button>
+      </nav>
+    </section>
+
+    <section id="view-glossary" class="view hidden" aria-labelledby="glossary-title">
+      <header><h1 id="glossary-title">Glosario</h1><p class="subtitle">Palabras técnicas, explicadas para aplicarlas.</p></header>
+      <label for="glossary-search" class="search-label">Buscar en el glosario</label>
+      <input id="glossary-search" type="search" placeholder="Buscar palabra técnica o sigla…" autocomplete="off">
+      <div class="area-filters" role="group" aria-label="Filtrar por área">
+        <button type="button" class="chip" data-area="all" aria-pressed="true">Todas</button>
+        <button type="button" class="chip" data-area="negocios" aria-pressed="false">Negocios</button>
+        <button type="button" class="chip" data-area="hoteleria" aria-pressed="false">Hotelería</button>
+        <button type="button" class="chip" data-area="mineria" aria-pressed="false">Minería</button>
+      </div>
+      <p id="glossary-count" role="status" aria-live="polite"></p>
+      <div id="glossary-list"></div>
+    </section>
+    <footer class="site-footer">Material educativo de referencia. Los procedimientos y normas varían según empresa y jurisdicción: verificá siempre la documentación vigente.</footer>
+
+    <!-- TOAST -->
+    <div id="toast" class="toast hidden"></div>
+  </div>
+
+  <script src="data-negocios.js"></script>
+  <script src="data-hoteleria.js"></script>
+  <script src="data-mineria.js"></script>
+  <script src="glossary-negocios.js"></script>
+  <script src="glossary-hoteleria.js"></script>
+  <script src="glossary-mineria.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
